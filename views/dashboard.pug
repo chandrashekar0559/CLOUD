@@ -39,7 +39,7 @@ html(lang='en')
       $(document).ready(function(){
       var user = $("#user").text();
       $("#getLink").click(function(){
-      document.getElementById("getLink").href = "http://localhost:8086/users/chat/"+user;
+      document.getElementById("getLink").href = "http://ec2-52-14-61-54.us-east-2.compute.amazonaws.com/users/chat/"+user;
       });
       });
   body
@@ -64,7 +64,7 @@ html(lang='en')
            h5 Your email is #{user.email}
            h4#user #{user.userName}
            h5
-              a(href='http://localhost:3000/users/logout') logout
+              a(href='http://ec2-52-14-61-54.us-east-2.compute.amazonaws.com/users/logout') logout
 
 
     footer.container-fluid.text-center
