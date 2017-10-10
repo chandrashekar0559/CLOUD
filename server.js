@@ -234,6 +234,6 @@ app.use(function(err, req, res, next) {
     })
 });
 
-http.listen(8086, function() {
+http.listen(3000, function() {
     console.log("messanger-Server-Is-Up");
 });
