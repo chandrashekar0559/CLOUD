@@ -109,8 +109,12 @@ sudo ln -s /etc/nginx/sites-available/messanger /etc/nginx/sites-enabled/messang
 9). now goto ur project directory 
 CD yourproject/ then click enter
 
-10). now run the node app 
-ex:- node server.js
+10). Now install 'forever' by using 
+sudo npm forever -g install command // this forever script for if restart session or we're exit the session still run the forever project 
+
+11). Now run the server by using
+forever start server.js 
+above command thenserver started.
 
 your project will start like this 
 
